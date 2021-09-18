@@ -32,6 +32,7 @@ function getStaticInformation(parentSelector, activeClass) {
             });
     
             e.target.classList.add(activeClass);
+
     
             calcTotal();
     
