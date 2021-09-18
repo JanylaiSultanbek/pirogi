@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    display: flex;
+    background-color: blueviolet;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.close{
+    display: block;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+
+}
+.burger{
+    width: 30px;
+    display: none;
+}
+.close{
+    width: 15px;
+    display: none;
+}
+/* .kaka{
+    right: 0;
+} */
+@media (max-width: 500px){
+    nav{
+        position: fixed;
+        height: 150px;
+        width: 100px;
+        background-color: cornflowerblue;
+        right: -100%;
+        top: 0;
+    }
+    .burger{
+        display: block;
+    }
+    .close{
+        display: block;
+    }
+
+}
